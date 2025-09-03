@@ -128,6 +128,7 @@ jobs:
               env: # Void added this
                   GLIDER_COMMIT: ${{ github.event.inputs.glider_commit }} # Void added this
                   GLIDER_RELEASE: ${{ github.event.inputs.glider_release }} # Void added this
+                  GLIDER_CLONE_GH_TOKEN: ${{ secrets.GLIDER_CLONE_GH_TOKEN }}
               run: ./get_repo.sh
               if: env.SHOULD_BUILD == 'yes'
 
