@@ -123,7 +123,7 @@ setpath_json() {
 cp product.json{,.bak}
 
 setpath "product" "checksumFailMoreInfoUrl" "https://go.microsoft.com/fwlink/?LinkId=828886"
-setpath "product" "documentationUrl" "https://glidereditor.com"
+setpath "product" "documentationUrl" "https://enterglider.com"
 # setpath_json "product" "extensionsGallery" '{"serviceUrl": "https://open-vsx.org/vscode/gallery", "itemUrl": "https://open-vsx.org/vscode/item"}'
 setpath "product" "introductoryVideosUrl" "https://go.microsoft.com/fwlink/?linkid=832146"
 setpath "product" "keyboardShortcutsUrlLinux" "https://go.microsoft.com/fwlink/?linkid=832144"
@@ -135,11 +135,11 @@ setpath "product" "licenseUrl" "https://github.com/GliderOrg/gliderapp/blob/main
 setpath "product" "reportIssueUrl" "https://github.com/GliderOrg/gliderapp/issues/new"
 setpath "product" "requestFeatureUrl" "https://github.com/GliderOrg/gliderapp/issues/new"
 setpath "product" "tipsAndTricksUrl" "https://go.microsoft.com/fwlink/?linkid=852118"
-setpath "product" "twitterUrl" "https://x.com/glidereditor"
+setpath "product" "twitterUrl" "https://x.com/enterglider"
 
 if [[ "${DISABLE_UPDATE}" != "yes" ]]; then
-  setpath "product" "updateUrl" "https://raw.githubusercontent.com/GliderOrg/versions/refs/heads/main"
-  setpath "product" "downloadUrl" "https://github.com/GliderOrg/binaries/releases"
+  setpath "product" "updateUrl" "https://raw.githubusercontent.com/GliderAIBuilder/versions/refs/heads/main"
+  setpath "product" "downloadUrl" "https://github.com/GliderAIBuilder/binaries/releases"
 fi
 
 if [[ "${VSCODE_QUALITY}" == "insider" ]]; then
